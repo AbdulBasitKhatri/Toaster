@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Toaster Example</title>
+</head>
+<body>
+  <script src="toaster.js"></script>
+  <script>
+    toast("info", "Click me to see alert", 3, () => { alert("HEHE") });
+    toast("error", "Invalid credentials!", 4);
+    toast("warn", "Too many requests!", 5);
+    toast("success", "Login Success!", 6);
+    toast("other", "Random Toast 1234567890", 7);
+  </script>
+</body>
+</html>
